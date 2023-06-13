@@ -1,19 +1,19 @@
 ﻿<h1 align="center">Stable Diffusion<br>安裝環境</h1>
 <h3 align="center">for Automatic1111 Webui</h3>
 
-<p align="center"><b>by. Haoming</b><br><i>Last Update: 2023/06/05</i></p>
+<p align="center"><b>by. Haoming</b><br><i>Last Update: 2023/06/15</i></p>
 
 ## CUDA Toolkit
 1. 前往 [https://developer.nvidia.com/cuda-toolkit-archive](https://developer.nvidia.com/cuda-toolkit-archive)
 
-2. 下載並安裝 `CUDA Toolkit 11.x` (`12.x` **不支援**)
+2. 下載並安裝 `CUDA Toolkit 11.8` (`12.x` **不支援**)
 <p align="center"><img src="img/cudadl.jpg" width=1024></p>
 
 3. 安裝過程，強烈建議選擇 `Custom` ，並取消 `GeForce` 、 `Other` 、 `Driver` 的選項
 <p align="center"><img src="img/cudainstall01.jpg" width=384> <img src="img/cudainstall02.jpg" width=384></p>
 
 4. 完成後，可以透過在 `cmd` [*](#cmd) 中輸入 `nvcc -V` 以確認是否正確安裝
-    - 若安裝正確，會出現如下之版本等資訊。再次注意版本須為 **`11.x`** !
+    - 若安裝正確，會出現如下之版本等資訊。再次注意版本須為 **`11.8`** !
 <p align="center"><img src="img/cudacheck.jpg" width=768></p>
 
 <hr>
@@ -45,6 +45,18 @@
 3. 完成後，可以透過在 `cmd` 中輸入 `git` 以確認是否正確安裝
     - 若安裝正確，會出現如下之使用方法等資訊
 <p align="center"><img src="img/gitcheck.jpg" width=768></p>
+
+<hr>
+
+## Checkpoint
+1. 前往 [CivitAI](https://civitai.com/?tag=base+model)
+
+2. 下載任意 Checkpoint
+    - **個人推薦**
+    - 擬真: [Realistic Vision](https://civitai.com/models/4201/realistic-vision-v20)
+    - 二次元: [UHD-23](https://civitai.com/models/22371/uhd-23)
+
+3. 按下藍色 `Download` 鍵即可
 
 <hr>
 
